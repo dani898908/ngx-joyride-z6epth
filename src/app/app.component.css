@@ -1,0 +1,26 @@
+p {
+  font-family: Lato;
+}
+.toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.container {
+  height: 100vh;
+}
+.blueColorFlex {
+  background-color: turquoise;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+.blueColorFlex1 {
+  background-color: rgb(195, 224, 64);
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}

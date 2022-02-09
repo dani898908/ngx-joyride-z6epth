@@ -1,0 +1,34 @@
+<mat-sidenav-container class="container">
+  <mat-sidenav mode="side" opened>
+    <mat-toolbar color="primary" class="toolbar"> Hi </mat-toolbar>
+    <mat-nav-list><mat-list-item>Dummy</mat-list-item></mat-nav-list>
+    <mat-nav-list><mat-list-item (click)="tour()">Start Tour</mat-list-item></mat-nav-list>
+  </mat-sidenav>
+  
+  <mat-sidenav-content>
+    <mat-toolbar color="primary" class="toolbar"> Hello </mat-toolbar>
+    <div class="blueColorFlex">
+      <mat-icon
+        joyrideStep="firstStep"
+        title="demoTour"
+        text="Hi, Welcome to demo tour"></mat-icon>
+        <mat-icon
+      joyrideStep="firstStep2"
+      title="demoTour"
+      text="Adios, Finish to demo tour"
+      ></mat-icon>
+    </div>
+    <div class="blueColorFlex1">
+      <mat-icon
+        joyrideStep="firstStep"
+        title="demoTour"
+        text="Hi, Welcome to demo tour"></mat-icon>
+        <mat-icon
+      joyrideStep="firstStep2"
+      title="demoTour"
+      text="Adios, Finish to demo tour"
+      ></mat-icon>
+    </div>
+   
+  </mat-sidenav-content>
+</mat-sidenav-container>
